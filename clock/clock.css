@@ -1,0 +1,71 @@
+#tiktik{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#clock{
+    font-family: monospace;
+    font-size: 5em;
+    backdrop-filter: blur(100px);
+}
+html,body{
+    background-image:url(/images/sandtime.webp);
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#stopwatch{
+  backdrop-filter: blur(50px);
+  text-align: center;
+}
+#start{
+    background-color:hsl(122, 64%, 50%);
+    border: none;
+    font-size: 1.25em;
+    padding: 5px;
+    margin: 2px;
+}
+#start:hover{
+    cursor: pointer;
+    background-color:hsl(122, 64%, 25%);
+}
+#reset{
+    background-color:hsl(69, 100%, 50%);
+    border: none;
+    font-size: 1.25em;
+    padding: 5px;
+    margin: 2px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color:hsl(69, 100%, 25%);
+}
+#stop{
+    background-color:hsl(0, 89%, 50%);
+    border: none;
+    font-size: 1.25em;
+    padding: 5px;
+    margin: 2px;
+}
+#stop:hover{
+    cursor: pointer;
+    background-color:hsl(0, 89%, 25%);
+}
+#display{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: monospace;
+    color:white;
+}
+#topic{
+    color: grey;
+}

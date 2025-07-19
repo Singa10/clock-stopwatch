@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+<label id="count">0</label>
+<div id="btns">
+    <button id="increment" class="btn">Increment</button>
+    <button id="decrement" class="btn">Decrement</button>
+    <button id="reset" class="btn">Reset</button>
+</div>
+<div>
+    <input type="checkbox" id="subscription"/>
+    <label for="subscription">SUBSCRIBE</label><BR></BR>
+    <input type="radio" id="mastercard" name="method">
+    <label for="mastercard" >MASTERCARD</label><BR></BR>
+    <input type="radio" id="visa" name="method">
+    <label for="visa" name="method">VISA</label><BR></BR>
+    <input type="radio" id="paypal" name="method">
+    <label for="paypal" name="method">PAYPAL</label><br><br>
+    <input type="submit" id="submit">
+<P id="subscriptiontext" class="text"></P>
+<p id="methodtext" class="text"></p>
+</div>
+<form id="TEMPRATURE">
+    <h1>TEMPERATURE CONVERTER:</h1>
+    <input type="number" id="initial" value="0"><br>
+
+    <input type="radio" id="toferheniet" name="convert">
+    <label for="toferheniet">Celsius → Fahrenheit</label><br>
+
+    <input type="radio" id="tocelsius" name="convert">
+    <label for="tocelsius">Fahrenheit → Celsius</label><br>
+
+    <button type="button" id="tempsub">SUBMIT</button>
+    <p id="result"></p>
+</form>
+
+<div id="container">
+    <h1>Dice Roller</h1>
+    <label>Number Of Dice:</label>
+    <input type="number" value="1" min="1" id="num">
+    <button id="roller" >Roll Dice</button>
+    <div id="diceresult"></div>
+    <div id="diceimage"></div>
+</div>
+
+
+
+<script src="counter.js"></script>
+</body>
+</html>
